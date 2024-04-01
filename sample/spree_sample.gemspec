@@ -3,7 +3,7 @@
 
 Gem::Specification.new do |s|
   s.name = "spree_sample".freeze
-  s.version = "4.8.0.beta".freeze
+  s.version = Spree.version
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0".freeze) if s.respond_to? :required_rubygems_version=
   s.metadata = { "bug_tracker_uri" => "https://github.com/spree/spree/issues", "changelog_uri" => "https://github.com/spree/spree/releases/tag/v4.8.0.beta", "documentation_uri" => "https://dev-docs.spreecommerce.org/", "source_code_uri" => "https://github.com/spree/spree/tree/v4.8.0.beta" } if s.respond_to? :metadata=
